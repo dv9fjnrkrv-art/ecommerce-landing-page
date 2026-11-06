@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaMart - Smart Wearable</title>
+    <style>
+        /* Estilização básica inline para estruturar o layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f5f7;
+        }
+
+        /* Cabeçalho / Logo e Busca */
+        header {
+            background-color: #ffffff;
+            padding: 15px 5%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0088ff;
+        }
+
+        .search-bar {
+            width: 40%;
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .user-actions a {
+            margin-left: 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+        }
+
+        /* Menu de Navegação */
+        nav {
+            background-color: #ffffff;
+            padding: 10px 5%;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #555;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        nav a.active {
+            color: #0088ff;
+            border-bottom: 2px solid #0088ff;
+            padding-bottom: 4px;
+        }
+
+        /* Banner Principal (Smart Wearable) */
+        .hero-banner {
+            background-color: #1a1e36;
+            color: #ffffff;
+            margin: 20px 5%;
+            padding: 40px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .hero-text h3 {
+            color: #00d2ff;
+            margin: 0 0 10px 0;
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        .hero-text h1 {
+            font-size: 36px;
+            margin: 0 0 10px 0;
+        }
+
+        .hero-text p {
+            color: #a0a5c0;
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .hero-image img {
+            max-width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">MegaMart</div>
+        <input type="text" class="search-bar" placeholder="Buscar no MegaMart...">
+        <div class="user-actions">
+            <a href="#">Entrar / Cadastrar</a>
+            <a href="#">Carrinho</a>
+        </div>
+    </header>
+
+    <!-- Menu de Categorias -->
+    <nav>
+        <ul>
+            <li><a href="#">Groceries</a></li>
+            <li><a href="#">Premium Fruits</a></li>
+            <li><a href="#">Home & Kitchen</a></li>
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#" class="active">Electronics</a></li>
+            <li><a href="#">Beauty</a></li>
+            <li><a href="#">Home Improvement</a></li>
+            <li><a href="#">Sports, Toys & Luggage</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner Principal -->
+    <section class="hero-banner">
+        <div class="hero-text">
+            <h3>Best Deal Online on Smart Watches</h3>
+            <h1>SMART WEARABLE.</h1>
+            <p>UP TO 80% OFF</p>
+        </div>
+        <div class="hero-image">
+            <!-- Imagem ilustrativa de relógio -->
+            <img src="relogio.jpg" alt="Smartwatch">
+        </div>
+    </section>
+
+</body>
+</html>
